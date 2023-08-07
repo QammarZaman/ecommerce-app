@@ -36,7 +36,7 @@ export default function Dashboard() {
     const user: userData | null = JSON.parse(
       localStorage.getItem("user") || "{}"
     );
-    if (user?.email !== "qammar@pixpel.io") {
+    if (user?.email !== "qammarzaman30@gmail.com") {
       Router.push("/");
     }
     dispatch(setNavActive("Base"));
